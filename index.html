@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+
+    <title>Rock-paper-scissors</title>
+</head>
+<body>
+    <div class="canvas">
+        <!-- Buttons -->
+         <h1>ROCK-PAPER-SCISSORS!</h1>
+        
+         <div class="container-enemy">
+            <h2>ENEMY</h2>
+            <div id="enemy" class="enemy">
+                none
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="target">YOU CHOOSE: None</h2>
+            <div id="ROCK" class="btn rock" onclick="move(this)">
+                <h3>Rock</h3>
+            </div>
+            <div id="PAPER" class="btn paper" onclick="move(this)">
+                <h3>Paper</h3>
+            </div>
+            <div id="SCISSORS" class="btn scissors" onclick="move(this)">
+                <h3>Scissors</h3>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 id="status">Choosing..</h2>
+        </div>
+    </div>
+</body>
+</html>
